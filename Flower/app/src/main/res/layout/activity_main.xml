@@ -12,7 +12,7 @@
         android:id="@+id/messageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/massage"
+        android:text="@string/message"
         android:textSize="18sp"/>
 
     <ImageView
@@ -35,7 +35,8 @@
         android:layout_height="wrap_content"
         style="@style/Widget.Material3.Button.OutlinedButton"
         android:text="@string/btn_reset"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="20dp"
+        android:visibility="invisible"/>
 
 
 </LinearLayout>
